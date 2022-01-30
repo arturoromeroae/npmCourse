@@ -1,7 +1,7 @@
 {
   "name": "npm",
   "version": "1.0.0",
-  "description": "",
+  "description": "Whenever I start a new project, I don't know what to write for the first commit. After doing a “git init” there is technically nothing there...",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,19 @@
   "author": "Arturo Romero <ajruwork@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturoromeroae/npmCourse.git"
+  },
+  "keywords": [
+    "javascript",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/arturoromeroae/npmCourse/issues"
+  },
+  "homepage": "https://github.com/arturoromeroae/npmCourse#readme"
 }
